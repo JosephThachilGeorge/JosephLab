@@ -4,9 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student obj= new Student(10000, "Joseph");
+       Student od=new Student();
 
-        obj.display();
+       od.display();
+
+        Thisexample thisexample=new Thisexample();
+
+        System.out.println("Value C:"+thisexample.varC);
+
 
     }
 

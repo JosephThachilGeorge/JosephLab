@@ -2,14 +2,16 @@ package thisexample;
 
 public class Student {
 
-    int id;
-    String name;
+    int id =100;
+    String name="Joseph T George ";
 
-        public Student(int id, String name)
+        public void Student(int id, String name)
     {
 
         this.id=id;
         this.name=name;
+
+
 
             }
 
@@ -19,3 +21,4 @@ public class Student {
     }
 
 }
+
