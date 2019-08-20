@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Student od=new Student();
+       Student od=new Student(45,"hhhh");
 
-       od.display();
+      od.display();
+
 
         Thisexample thisexample=new Thisexample();
 

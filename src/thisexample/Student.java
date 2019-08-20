@@ -2,16 +2,15 @@ package thisexample;
 
 public class Student {
 
-    int id =100;
-    String name="Joseph T George ";
+    int id=100 ;
+    String name="Joseph T George";
 
-        public void Student(int id, String name)
+        public  Student(int id, String name)
     {
-
-        this.id=id;
         this.name=name;
+        this.id=id;
 
-
+        return;
 
             }
 
